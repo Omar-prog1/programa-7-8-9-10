@@ -11,7 +11,7 @@ int main()
    printf("\n\n Programa 8");
    printf("\n\n calcular la tasa de rentabilidad inicial");
    printf("\n\n ¿cuales son los beneficios anuales de la empresa?");
-   scanf("&f", &beneficiosanualesnetos);
+   scanf("%f", &beneficiosanualesnetos);
    printf("\n\n ¿cual es el precio de venta?");
    scanf("%f", &precio);
    rentabilidad = (beneficiosanualesnetos/precio);
