@@ -14,4 +14,5 @@ int main()
    scanf("%f",&IVA);
    total= precio+precio*(IVA/100);
    printf("el precio final con iva es : %.2f/n", total);
+   return 0;
 }
